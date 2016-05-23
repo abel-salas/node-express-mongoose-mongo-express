@@ -1,0 +1,24 @@
+{
+  "name": "ApiNotifications",
+  "description": "ECO-Api node notifications",
+  "main": "notifications.js",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "body-parser": "1.14.2",
+    "crypto": "0.0.3",
+    "express": "~4.13",
+    "mongo-express": "^0.30.56",
+    "mongoose": "^4.4.17",
+    "nodemon": "^1.8.1",
+    "request": "^2.67.0"
+  },
+  "scripts": {
+    "start": "mongod | nodemon app.js",
+    "mongo": "cd node_modules/mongo-express && npm start"
+  },
+  "license": "SEE LICENSE IN <LICENSE>",
+  "engines": {
+    "node": ">=4"
+  }
+}
