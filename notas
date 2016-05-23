@@ -1,9 +1,0 @@
-/var/lib/mongodb
-mongod --dbpath=/data --port 27017
---dbpath=/
-
-npm install -g nodemon
-
-sudo mongod --dbpath=/var/lib/mongodb --port 27017
-
-sudo service mongodb {start|stop|force-stop|restart|force-reload|status}
