@@ -1,9 +1,9 @@
 {
-  "name": "ApiNotifications",
-  "description": "ECO-Api node notifications",
-  "main": "notifications.js",
+  "name": "Api created by Abel Salas",
+  "description": "Api node mongoose, services, products & users",
+  "main": "app.js",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "dependencies": {
     "body-parser": "1.14.2",
     "crypto": "0.0.3",
